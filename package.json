@@ -4,7 +4,7 @@
   "description": "API em NodeJS com Clean Architecture e TDD, seguindo as aulas do Rodrigo Manguinho -> https://www.youtube.com/watch?v=vV1wQ6GFH0A&amp;list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG&amp;index=1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -25,8 +25,9 @@
   },
   "homepage": "https://github.com/cleytonbc/clean-nodejs-api#readme",
   "devDependencies": {
+    "husky": "^7.0.0",
+    "jest": "^27.4.7",
     "lint-staged": "^12.3.2",
-    "standard": "^16.0.4",
-    "husky": "^7.0.0"
+    "standard": "^16.0.4"
   }
 }
