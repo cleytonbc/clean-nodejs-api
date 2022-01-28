@@ -7,17 +7,12 @@
     "test": "jest",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cleytonbc/clean-nodejs-api.git"
+  "standard":{
+    "env": ["jest"]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cleytonbc/clean-nodejs-api/issues"
-  },
-  "homepage": "https://github.com/cleytonbc/clean-nodejs-api#readme",
   "devDependencies": {
     "husky": "^7.0.0",
     "jest": "^27.4.7",
