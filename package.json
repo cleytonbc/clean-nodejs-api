@@ -1,0 +1,20 @@
+{
+  "name": "clean-nodejs-api",
+  "version": "1.0.0",
+  "description": "API em NodeJS com Clean Architecture e TDD, seguindo as aulas do Rodrigo Manguinho -> https://www.youtube.com/watch?v=vV1wQ6GFH0A&amp;list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG&amp;index=1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleytonbc/clean-nodejs-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleytonbc/clean-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/cleytonbc/clean-nodejs-api#readme"
+}
