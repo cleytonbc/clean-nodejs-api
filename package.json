@@ -11,8 +11,10 @@
     "prepare": "husky install",
     "test:ci": "npm test -- --coverage "
   },
-  "standard":{
-    "env": ["jest"]
+  "standard": {
+    "env": [
+      "jest"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -22,5 +24,8 @@
     "jest": "^27.4.7",
     "lint-staged": "^12.3.2",
     "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "validator": "^13.7.0"
   }
 }
