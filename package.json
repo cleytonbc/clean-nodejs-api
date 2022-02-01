@@ -4,8 +4,8 @@
   "description": "API em NodeJS com Clean Architecture e TDD, seguindo as aulas do Rodrigo Manguinho -> https://www.youtube.com/watch?v=vV1wQ6GFH0A&amp;list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG&amp;index=1",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
-    "test:staged": "jest --passWithNoTests",
+    "test": "jest --watch --colors --noStackTrace",
+    "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTra",
     "prepare": "husky install"
   },
   "standard":{
