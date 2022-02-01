@@ -4,10 +4,11 @@
   "description": "API em NodeJS com Clean Architecture e TDD, seguindo as aulas do Rodrigo Manguinho -> https://www.youtube.com/watch?v=vV1wQ6GFH0A&amp;list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG&amp;index=1",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --silent --colors --noStackTrace",
-    "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTrace",
+    "test": "jest --silent --colors --noStackTrace --passWithNoTests",
+    "test:unit": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
     "prepare": "husky install",
-    "test:ci": "jest --coverage  --noStackTrace --silent"
+    "test:ci": "npm test -- --coverage "
   },
   "standard":{
     "env": ["jest"]
